@@ -1,0 +1,156 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+
+body{
+     background-color: yellow;
+     overflow-x: hidden;
+}
+.header{
+     color:  black;
+     font-size: 22px;
+     font-weight: bolder;
+     align-content: center;
+     position: relative;
+     left: 650px;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+
+
+}
+.num{
+     padding-top: 50px;
+}
+.row1{
+     width: 100px;
+     height: 100px;
+     margin: 20px;
+     background-color: blue;
+     border: 1px solid black;
+     animation: anime1 2s infinite alternate ;
+
+}
+
+@keyframes anime1{
+     0%{
+        transform: skewX(-30deg);
+     }
+     100%{
+         transform: skewX(30deg);
+
+         
+     }
+}
+
+
+
+.row2{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color:grey;
+    border: 1px solid black;
+    animation: anime2 2s infinite alternate ;
+}
+
+@keyframes anime2{
+     0%{
+        transform: skewY(-30deg);
+     }
+     100%{
+         transform: skewY(30deg);
+     }
+}
+
+
+.row3{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: blue;
+    border: 1px solid black;
+    animation: anime3 2s infinite normal;
+}
+@keyframes anime3{
+     0%{
+        transform: rotate(90deg);
+
+     }
+     100%{
+         transform: rotate(360deg);
+     }
+}
+
+
+.row41{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: blue;
+    border: 1px solid black;
+    animation: anime4 2s infinite alternate;
+}
+
+@keyframes anime4 {
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+         transform: scaleY(0.5);
+    }
+}
+
+.row42{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: maroon;
+    border: 1px solid black;
+    animation: anime5 2s infinite alternate;
+}
+
+@keyframes anime5{
+    0%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scaleX(0.5);
+    }
+}
+
+
+.row43{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+    border: 1px solid black;
+    animation: anime6 2s infinite alternate;
+}
+@keyframes{
+     0%{
+        transform: rotate(-10deg);
+
+     }
+     100%{
+        transform: rotate(60deg);
+     }
+}
+
+
+
+a{
+    font-weight: bold;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+

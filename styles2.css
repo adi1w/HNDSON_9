@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+    overflow-x: hidden;
+
+}
+
+.header{
+    color:  black;
+    font-size: 22px;
+    font-weight: bolder;
+    align-content: center;
+    position: relative;
+    left: 650px;
+}
+
+.box1{
+    display: flex;
+    position: relative;
+    left: 45%;
+
+}
+
+.nums{
+    padding-top: 50px;
+}
+
+.row1a{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+    border: 1px solid black;
+    transition: all 3s ;
+}
+
+.row1a:hover{
+     width: 300px;
+}
+
+.row2a{
+    width: 100px;
+     height: 100px;
+     margin: 20px;
+     background-color: green;
+     border: 1px solid black;
+}
+.row2a:hover{
+    height: 350px;
+    width: 300px;
+}
+
+.row3a{
+    width: 100px;
+     height: 100px;
+     margin: 20px;
+     background-color: green;
+     border: 1px solid black;
+}
+
+.row3a:hover{
+     width: 300px;
+     transition-timing-function: linear;
+}
+
+.row4a{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.row4a:hover{
+     width: 300px;
+     transition-timing-function: ease;
+}
+
+.row5a{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+
+.row5a:hover{
+     width: 300px;
+     transition-timing-function: ease-in;
+}
+
+.row6a{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+    border: 1px solid black;
+}
+.row6a:hover{
+     width: 300px;
+     transition-timing-function: ease-out;
+}
+
+.row7a{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+    border: 1px solid black;
+}
+.row7a:hover{
+     width: 300px;
+     transition-timing-function: ease-in-out;
+}
+
+ /* .h2{
+color:  black;
+font-size: 22px;
+font-weight: bolder;
+align-content: center;
+}  */
+
+a{
+     justify-content: center;
+     display: flex;
+     font-size: xx-large;
+}
+
+
+
+
